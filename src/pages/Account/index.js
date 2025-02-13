@@ -308,7 +308,7 @@ export default function ({ navigation, route }) {
                                     fontSize: 13,
                                     color: Color.blueGray[400],
 
-                                }}>Testing Weight {user.tipe} Program</Text>
+                                }}>Weight {user.tipe} Program</Text>
                             </View>
                         </View>
 

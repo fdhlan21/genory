@@ -39,11 +39,11 @@ export default function KeduaNextSlide({ navigation }) {
 
     const handleNextSlide = () => {
         if (isProgramSelected) {
-            if (selectedProgram === 'Testing Weight Gain Program') {
+            if (selectedProgram === 'Weight Gain Program') {
                 navigation.navigate('GainRegister', {
                     tipe: 'Gain'
                 });
-            } else if (selectedProgram === 'Testing Weight Loss Program') {
+            } else if (selectedProgram === 'Weight Loss Program') {
                 navigation.navigate('GainRegister', {
                     tipe: 'Loss'
                 });
@@ -101,8 +101,8 @@ export default function KeduaNextSlide({ navigation }) {
                                 onChange={handleProgramChange}
                                 label="Pilih Program"
                                 data={[
-                                    { label: 'Testing Weight Gain Program', value: 'Testing Weight Gain Program' },
-                                    { label: 'Testing Weight Loss Program', value: 'Testing Weight Loss Program' },
+                                    { label: 'Weight Gain Program', value: 'Weight Gain Program' },
+                                    { label: 'Weight Loss Program', value: 'Weight Loss Program' },
                                 ]} />
                         </View>
 
